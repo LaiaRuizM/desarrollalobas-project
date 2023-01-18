@@ -4,5 +4,8 @@
     box-sizing: border-box;
 }
 
+.nombre-grupo {
+    text-decoration: underline;
+}
 
     /*Aquí tiene que ir el estilo de los elementos */
