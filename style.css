@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .body {
     width: 100vw; /*100% del tamaño del ancho de mi pantalla, si la movemos ahora la pantalla, se irá ajustando.*/
     height: 100vh;
@@ -16,16 +20,24 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    
 }
 
 .nombre-grupo {
-    text-decoration: underline;
     background-color: #099d8d;
+    opacity: 0.8;
     color: #ffffff;
+    font-family: 'Rubik', sans-serif;
 }
 
 .nav {
     background-color: #14d9c4;
+    opacity: 0.8;
     color: #ffffff;
 }
 
@@ -34,11 +46,37 @@
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main {
+    opacity: 0.9;
+}
+
+.div {
+    background-image: url("./Images/wolf.png");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+.h2 {
+    font-family: 'Rubik', sans-serif;
+    color: #099d8d;
 }
 
 .LogoAdalab {
     width: 30vw;
     height: 10vh;
+}
+
+.footer {
+    position: sticky;
+    z-index: 1;
 }
 
     /*Aquí tiene que ir el estilo de los elementos */
@@ -53,4 +91,15 @@
     /*gris claro bckgr fortalezas: #b8b8b9*/
     /*gris oscuro letras: #54585a*/
 
-    /**/
+
+    
+    /* 
+    
+    background-image: url("./Images/wolf.jpeg");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin: 0; 
+    
+    */
