@@ -137,9 +137,17 @@
     width: 30vw;
     height: 10vh;
 }
+/*
+.container-logo{
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .footer {
-    position: sticky;
+   /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: sticky;*/
     z-index: 1;
     border: 0.5px solid gray;
 }
