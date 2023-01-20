@@ -1,8 +1,5 @@
-* {
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
+
 
 :root {
     font-family: 'Open Sans', sans-serif;
@@ -75,8 +72,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 45vh;
-    position: sticky;
+    bottom: 38vh;
+    position:absolute;
    
 }
 
@@ -101,6 +98,41 @@
     margin-top: 50px;
 }
 
+.imagenlaia {
+    margin: auto;
+    /*padding: 20px;*/
+    width: 310px;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    /*align-content: center;*/
+    border: 5px solid #b8b8b9;
+    background-size: contain;
+}
+
+.imagenpilar {
+    margin: auto;
+    /*padding: 20px;*/
+    width: 190px;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    /*align-content: center;*/
+    border: 5px solid #b8b8b9;
+    background-size: contain;
+}
+
+.imagenlourdes {
+    margin: auto;
+    /*padding: 20px;*/
+    width: 185px;
+    height: 250px;
+    display: flex;
+    /*align-content: center;*/
+    border: 5px solid #b8b8b9;
+    background-size: contain;
+}
+
 .LogoAdalab {
     width: 30vw;
     height: 10vh;
@@ -109,6 +141,7 @@
 .footer {
     position: sticky;
     z-index: 1;
+    border: 0.5px solid gray;
 }
 
     /*Aquí tiene que ir el estilo de los elementos */
