@@ -11,6 +11,9 @@
     display: flex;
     flex-direction: column;
     text-align: center; /*el texto que tengas, ponlo centrado.*/
+    max-width: 480px;
+    border: 2px solid green;
+    
 }
 
 .header {
@@ -22,9 +25,12 @@
     top: 0px;
     /*position: absolute;*/
     width: 100%;
+   
 }
 
 .nombre-grupo {
+    padding: 15px;
+    font-size:x-large;
     background-color: #099d8d;
     opacity: 0.8;
     color: #ffffff;
@@ -33,6 +39,7 @@
 }
 
 .nav {
+    padding: 10px;;
     background-color: #14d9c4;
     opacity: 0.8;
     color: #ffffff;
@@ -49,6 +56,7 @@
 .main {
     opacity: 0.9;
     text-align: center;
+    border: 2px solid yellow;
 }
 
 
@@ -64,39 +72,44 @@
 
 }
 .mother {
-    position: absolute;
+   
     margin: auto;
    /* margin-right: 25%;
     margin-left: 25%;*/
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    bottom: 62vh;
-   
+    bottom: 40px;
+    position:relative; 
+    top: -30px;
 }
 
 .text {
-    margin: auto;
+  
     position: relative;
     text-align: center;
     align-items: center;
     width: 70%;
     background-color: #ffffff;
-   padding: 20px 20px;
- 
+   padding: 15px 15px;
+}
+
+._1 {
+    border: 3px solid red;
+   margin-top: -30px;
+   margin-bottom: 50px;
+   padding: 20px;
 }
 
 .h2 {
-    margin: 30px;
+    margin: 10px;
     font-family: 'Rubik', sans-serif;
     color: #099d8d;
-}
-
-._1 .h2{
-    margin-top: 50px;
+    border: 2px solid black;
     
 }
+
 
 .imagenlaia {
     margin: auto;
@@ -107,30 +120,65 @@
     display: flex;
     /*align-content: center;*/
     border: 5px solid #b8b8b9;
-    background-size: contain;
+    background-position: 50% 50%;
+    justify-content: center;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.iconos {
+    list-style-type: none;
+    justify-content: space-around;
+    color: #14d9c4;
+    
 }
 
 .imagenpilar {
     margin: auto;
     /*padding: 20px;*/
-    width: 190px;
+    width: 185px;
     height: 250px;
     justify-content: center;
     display: flex;
     /*align-content: center;*/
     border: 5px solid #b8b8b9;
-    background-size: contain;
+    background-position: 50% 50%;
+    justify-content: center;
 }
 
 .imagenlourdes {
     margin: auto;
     /*padding: 20px;*/
-    width: 185px;
-    height: 250px;
+    width: 145px;
+    height: 200px;
     display: flex;
     /*align-content: center;*/
     border: 5px solid #b8b8b9;
-    background-size: contain;
+    background-position: 50% 50%;
+    justify-content: center;
+}
+
+.descripcionlaia {
+    margin: auto;
+    justify-content: center;
+}
+
+
+.descripcionpilar {
+    margin: auto;
+    justify-content: center;
 }
 
 .LogoAdalab {
