@@ -1,0 +1,261 @@
+/*@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';*/
+
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+    width: 100vw; /*100% del tamaño del ancho de mi pantalla, si la movemos ahora la pantalla, se irá ajustando.*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /*el texto que tengas, ponlo centrado.*/
+    max-width: 480px;    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+   
+}
+
+.nombre-grupo {
+    padding: 15px;
+    font-size:x-large;
+    background-color: #099d8d;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.nav {
+    padding: 10px;;
+    background-color: #14d9c4;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.listas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main {
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+.div {
+    background-image: url("../images/wolf.jpeg");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+
+}
+.mother {
+   
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    bottom: 40px;
+    position:relative; 
+    top: -30px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 15px 15px;
+}
+
+.grey-text {
+    color: #54585a;
+    line-height: 1.5;
+}
+
+.our-name {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.seccion-personal {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+._1 {
+    margin-top: -30px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.h2 {
+    margin: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #099d8d;
+}
+
+.deb_for {
+    background-color: #b8b8b9;
+    text-align: center;
+}
+
+
+.imagenlaia {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    border: 5px solid #b8b8b9;
+    background-position: 50% 50%;
+    justify-content: center;
+}
+
+.imagenpilar {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    border: 5px solid #b8b8b9;
+    justify-content: center;
+}
+
+.imagenpilar img {
+    width: 100%;
+}
+
+.imagenlourdes {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border: 5px solid #b8b8b9;
+    justify-content: center;
+}
+
+.imagenlourdes img {
+    width: 100%;
+
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    height: 20px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.iconos {
+    list-style-type: none;
+    justify-content: space-around;
+    color: #14d9c4;
+    
+}
+.descripcion {
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: sticky;
+    z-index: 1;
+    border-top: 1px solid #54585a;
+    padding: 30px;
+}
+
+.footer__copy {
+    color: #b8b8b9;
+}
+
+.footer__list {
+    margin: 15px auto;
+}
+
+.footer__list-item {
+    margin: 5px auto;
+}
+
+.footer__list-link {
+    text-decoration: none;
+    color: #54585a;
+}
+
+
+.container-logo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.logo-adalab {
+    max-width: 100%;
+}
+    /*Aquí tiene que ir el estilo de los elementos */
+
+    /*h1: #099d8d*/
+    /*color: #ffffff*/
+    /*nav: #14d9c4*/
+    /*color: #ffffff */
+    /*Lorem backgr 
+    img: #000000*/
+
+    /*gris claro bckgr fortalezas: #b8b8b9*/
+    /*gris oscuro letras: #54585a*/
+
+
+    
+    /* 
+    
+    background-image: url("./Images/wolf.jpeg");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin: 0; 
+    
+    */
