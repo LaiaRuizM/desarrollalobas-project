@@ -28,6 +28,7 @@
     margin-top: -30px;
     margin-bottom: 50px;
     padding: 20px;
+    
 }
 
 .h2 {
@@ -86,22 +87,18 @@
 
 .icons-item::after {
     content: "·";
-    color: gray;
+    color: rgb(61, 61, 61);
     padding-left: 10px;
     
 }
 
 @media (min-width: 768px) {
-  ._1 {
-    margin-top: -30px;
-    margin-bottom: 50px;
-    padding: 20px;
-}
+ 
 
 .deb_for {
-  background-color: #dcdcde;
+ /* background-color: #dcdcde;
   text-align: center;
-  flex-direction: row;
+  flex-direction: row; */
   display:inline-block;
 }
 
