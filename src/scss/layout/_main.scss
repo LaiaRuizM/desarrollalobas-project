@@ -1,0 +1,117 @@
+.main {
+    opacity: 0.9;
+    text-align: center;
+}
+
+.mother {
+   
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    bottom: 40px;
+    position:relative; 
+    top: -30px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 15px 15px;
+}
+
+._1 {
+    margin-top: -30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    
+}
+
+.h2 {
+    margin: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #099d8d;
+}
+
+.grey-text {
+    color: #6d6e6f;
+    line-height: 1.5;
+}
+
+
+.deb_for {
+    background-color: #dcdcde;
+    text-align: center;
+}
+
+.seccion-personal {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.our-name {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    height: 20px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.iconos {
+    list-style-type: none;
+    justify-content: space-around;
+    color: #14d9c4;
+    
+}
+.descripcion {
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.icons-item::after {
+    content: "·";
+    color: rgb(61, 61, 61);
+    padding-left: 10px;
+    
+}
+
+@media (min-width: 768px) {
+ 
+
+.deb_for {
+ /* background-color: #dcdcde;
+  text-align: center;
+  flex-direction: row; */
+  display:inline-block;
+}
+
+.h2 {
+  margin: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  color: #099d8d;
+}
+
+.grey-text {
+  color: #6d6e6f;
+  line-height: 1.5;
+}
+
+}

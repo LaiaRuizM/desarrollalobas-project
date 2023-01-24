@@ -1,0 +1,47 @@
+/*@import 'core/variables';
+@import 'components/code';
+@import 'components/links';
+@import 'pages/index';
+
+
+móvil, por debajo de 768px
+tablet, desde 768px hasta 1200px
+desktop, a partir de 1200px
+
+*/
+
+
+@import './core/reset';
+@import './layout/page';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/main';
+@import './layout/images';
+@import './core/variables';
+@import './components/code';
+@import './components/links';
+
+
+
+  /*Aquí tiene que ir el estilo de los elementos */
+
+    /*h1: #099d8d*/
+    /*color: #ffffff*/
+    /*nav: #14d9c4*/
+    /*color: #ffffff */
+    /*Lorem backgr 
+    img: #000000*/
+
+    /*gris claro bckgr fortalezas: #b8b8b9*/
+    /*gris oscuro letras: #54585a*/
+    
+    /* 
+    
+    background-image: url("./Images/wolf.jpeg");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin: 0; 
+    
+    */

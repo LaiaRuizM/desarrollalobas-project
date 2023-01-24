@@ -1,8 +1,45 @@
-.page__footer {
+/* .page__footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100vw;
   padding: 1rem;
   color: $color-secondary;
+}
+*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 1;
+  border-top: 1px solid #54585a;
+  padding: 30px;
+}
+
+.footer__copy {
+  color: #b8b8b9;
+}
+
+.footer__list {
+  margin: 15px auto;
+}
+
+.footer__list-item {
+  margin: 5px auto;
+}
+
+.footer__list-link {
+  text-decoration: none;
+  color: #54585a;
+}
+
+.container-logo {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.logo-adalab {
+  max-width: 100%;
 }

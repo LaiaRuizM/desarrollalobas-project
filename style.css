@@ -1,11 +1,4 @@
-/*@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';*/
+
 
 
 :root {
@@ -61,6 +54,8 @@
     color: inherit;
 }
 
+
+
 .main {
     opacity: 0.9;
     text-align: center;
@@ -68,7 +63,7 @@
 
 
 .div {
-    background-image: url("../images/wolf.jpeg");
+    background-image: url("./Images/wolf.jpeg");
     opacity: 0.9;
     background-repeat: no-repeat;
     background-position: center;
@@ -199,42 +194,7 @@
     
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: sticky;
-    z-index: 1;
-    border-top: 1px solid #54585a;
-    padding: 30px;
-}
 
-.footer__copy {
-    color: #b8b8b9;
-}
-
-.footer__list {
-    margin: 15px auto;
-}
-
-.footer__list-item {
-    margin: 5px auto;
-}
-
-.footer__list-link {
-    text-decoration: none;
-    color: #54585a;
-}
-
-
-.container-logo {
-    width: 30%;
-    margin: 0 auto;
-}
-
-.logo-adalab {
-    max-width: 100%;
-}
     /*Aquí tiene que ir el estilo de los elementos */
 
     /*h1: #099d8d*/

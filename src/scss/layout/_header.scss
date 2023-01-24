@@ -1,5 +1,62 @@
-.page__header {
+/* .page__header {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 3rem;
 }
+*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  z-index: 1;
+  top: 0px;
+  width: 100%;
+ 
+}
+
+.div {
+  background-image: url("../images/wolf.jpeg");
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+
+}
+
+.nombre-grupo {
+  padding: 15px;
+  font-size:x-large;
+  background-color: #099d8d;
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+.nav {
+  padding: 10px;;
+  background-color: #14d9c4;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.listas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-family: 'Rubik', sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*.nav-link::after {
+  content:".";
+}*/
