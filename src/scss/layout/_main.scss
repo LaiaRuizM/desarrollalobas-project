@@ -139,4 +139,43 @@
         position: relative;
         top: -35px;
     }
+    
+    /*.footer {
+        visibility: hidden;
+    }*/
+    .footer-tablet{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        z-index: 1;
+        border-top: 1px solid #54585a;
+        padding: 30px;
+    }
+
+    /*
+    .footer__list-tablet {
+        margin: 15px auto;
+    }
+    .footer__list-item {
+        margin: 5px auto;
+      }
+      
+    .footer__list-link {
+        text-decoration: none;
+        color: #54585a;
+      }
+      
+    .container-logo {
+        width: 30%;
+        margin: 0 auto;
+      }
+      
+    .logo-adalab {
+        max-width: 100%;
+      }
+    .footer-tablet-item {
+        padding-right: 20px;
+    }
+      */
 }
