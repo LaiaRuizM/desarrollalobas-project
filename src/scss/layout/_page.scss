@@ -1,7 +1,21 @@
-body {
+/* body {
   padding: 2rem;
   height: 100vh;
   background-image: url('../images/bg-adalab.png');
   background-color: $color-bg;
   font-family: $font-main;
+}
+*/
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+  width: 100vw; /*100% del tamaño del ancho de mi pantalla, si la movemos ahora la pantalla, se irá ajustando.*/
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center; /*el texto que tengas, ponlo centrado.*/
+  max-width: 480px;    
 }
