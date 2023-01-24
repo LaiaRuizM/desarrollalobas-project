@@ -1,10 +1,4 @@
-.main {
-    opacity: 0.9;
-    text-align: center;
-}
-
 .mother {
-   
     margin: auto;
     width: 100%;
     display: flex;
@@ -23,8 +17,14 @@
     background-color: #ffffff;
     padding: 15px 15px;
 }
+.equipo{
+    margin-top: -30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    
+}
 
-._1 {
+.dafo {
     margin-top: -30px;
     margin-bottom: 50px;
     padding: 20px;
@@ -76,7 +76,7 @@
 .iconos {
     list-style-type: none;
     justify-content: space-around;
-    color: #14d9c4;
+    color: #099d8d;
     
 }
 .descripcion {
@@ -93,25 +93,50 @@
 }
 
 @media (min-width: 768px) {
- 
-
-.deb_for {
- /* background-color: #dcdcde;
-  text-align: center;
-  flex-direction: row; */
-  display:inline-block;
-}
-
-.h2 {
-  margin: 10px;
-  font-family: 'Rubik', sans-serif;
-  font-size: 24px;
-  color: #099d8d;
-}
-
-.grey-text {
-  color: #6d6e6f;
-  line-height: 1.5;
-}
-
+    .dafo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        place-content: center;
+        
+    }
+    .grey-text {
+        padding: 20px;
+    }
+    .fortdebi {
+        width: 50%;
+    }
+    .seccion-personal {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .text-tablet {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        text-align: justify;
+    }
+    .seccion-personal-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-left: 20px;
+    }
+    .text-tablet-reverse {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-content: flex-end;
+        text-align: justify;
+    }
+    .imagenlaia {
+        position: relative;
+        top: -35px;
+    }
 }
