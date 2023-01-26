@@ -9,6 +9,17 @@
     top: -30px;
 }
 
+.div {
+    background-image: url("../images/wolf.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+
 .text {
     position: relative;
     text-align: center;
@@ -16,6 +27,9 @@
     width: 70%;
     background-color: #ffffff;
     padding: 15px 15px;
+    font-weight: 600;
+    letter-spacing: 2px; /*Espaciado de letras para que sea más leíble*/
+    line-height: 1.17; /*Puesto para separar ambas líneas*/
 }
 .equipo{
     margin-top: -30px;
@@ -24,10 +38,20 @@
     
 }
 
+.triangle {
+    position: relative;
+    transform: translate(1%, 50%) rotate(45deg);
+    background: white;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    top: -30px;
+}
+
 .dafo {
     margin-top: -30px;
     margin-bottom: 50px;
-    padding: 20px;
+    padding: 40px;
     
 }
 
@@ -93,13 +117,24 @@
 }
 
 @media (min-width: 768px) {
+    .text {
+        bottom: 37px;
+        left: -70px;
+        opacity: 0.8;
+    }
+
+    .div {
+        width: 100%;
+        height: 50vh;
+    }
+
     .dafo {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         place-content: center;
-        
     }
+
     .grey-text {
         padding: 20px;
     }
@@ -139,43 +174,30 @@
         position: relative;
         top: -35px;
     }
-    
-    /*.footer {
-        visibility: hidden;
-    }*/
-    .footer-tablet{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        position: sticky;
-        z-index: 1;
-        border-top: 1px solid #54585a;
-        padding: 30px;
-    }
 
-    /*
-    .footer__list-tablet {
-        margin: 15px auto;
-    }
-    .footer__list-item {
-        margin: 5px auto;
-      }
+
+    
+    // .footer__list-tablet {
+    //     margin: 15px auto;
+    // }
+    // .footer__list-item {
+    //     margin: 5px auto;
+    //   }
       
-    .footer__list-link {
-        text-decoration: none;
-        color: #54585a;
-      }
+    // .footer__list-link {
+    //     text-decoration: none;
+    //     color: #54585a;
+    //   }
       
-    .container-logo {
-        width: 30%;
-        margin: 0 auto;
-      }
+    // .container-logo {
+    //     width: 30%;
+    //     margin: 0 auto;
+    //   }
       
-    .logo-adalab {
-        max-width: 100%;
-      }
-    .footer-tablet-item {
-        padding-right: 20px;
-    }
-      */
+    // .logo-adalab {
+    //     max-width: 100%;
+    //   }
+    // .footer-tablet-item {
+    //     padding-right: 20px;
+    // }
 }

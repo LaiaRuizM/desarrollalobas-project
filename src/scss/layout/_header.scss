@@ -9,39 +9,24 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  z-index: 1;
   top: 0px;
   width: 100%;
- 
 }
 
-.div {
-  background-image: url("../images/wolf.jpeg");
-  opacity: 0.9;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0;
-  height: 300px;
-  background-size: cover;
-  position: relative;
 
-}
 
 .nombre-grupo {
   padding: 15px;
   font-size:x-large;
   background-color: #099d8d;
-  opacity: 0.8;
+  opacity: 1;
   color: #ffffff;
   font-family: 'Rubik', sans-serif;
-  
 }
 
 .nav {
   padding: 10px;;
   background-color: #14d9c4;
-  opacity: 0.8;
-  color: #ffffff;
 }
 
 .listas {
@@ -54,9 +39,34 @@
 
 .nav-link {
   text-decoration: none;
-  color: inherit;
+  opacity: 1;
+  color: #ffffff;
 }
 
 /*.nav-link::after {
   content:".";
 }*/
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #099d8d;
+    height: 75px;
+    padding: 10px;
+
+    .listas {
+      gap: 20px;
+      padding-right: 60px;
+      padding-top: 9px;
+    }
+
+    .nombre-grupo {
+      padding-left: 50px;
+    }
+
+    .nav {
+      background-color: #099d8d;
+    }
+  }
+}

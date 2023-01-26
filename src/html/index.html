@@ -10,27 +10,19 @@
      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="./assets/css/reset.css">
      <link rel="stylesheet" href="./assets/css/style.css">
     </head>
 
     <body class="body">
-        <header class="header">
-            
-            <h1 class="nombre-grupo">DESARROLLALOBAS 🐺</h1>
-            <nav class="nav">  
-                <ul class="listas">
-                    <li><a class="nav-link" href="#">EQUIPO</a></li>
-                    <li><a class="nav-link" href="#">QUIENES SOMOS</a></li>
-                    <li><a class="nav-link" href="#">CONTACTO</a></li>
-                </ul>
-            </nav>
-          </header>
-
+        
+        <include src="./partials/header.html"></include>
     
-    <section>
+    <main>
+    <section class="hero">
         <div class="div"></div>
         <div class="mother">
             <p class="text">«Aim for the stars so that if you miss, you will still get to the moon»</p>
@@ -38,16 +30,20 @@
     </section>   
 
     <section class="equipo">
-        <h2 class="h2">EQUIPO</h2>
-        <p class="grey-text">
-            El ser humano es un animal social, al igual que los lobos, que se organizan en grupos y siguen ciertas pautas para funcionar y prosperar.
-            Somos un grupo de chicas en el que queremos ser un granito de arena en el mundo Tech y aumentar la presencia de la mujer en este sector. Además, hoy en día, nos encontramos en una sociedad muy volátil y queremos formar parte de este cambio. Sín olvidar que este puede ser un pequeño impulso para el resto de mujeres.
-            En este equipo todas somos
-            <em><strong>LobasMasters</strong></em>.
-        </p>
+        <h2 class="h2" id="equipo">EQUIPO</h2>
+            <p class="grey-text">El ser humano es un animal social, al igual que los lobos, que se organizan en grupos y siguen ciertas pautas para funcionar y prosperar.
+            Somos un grupo de chicas en el que queremos ser un granito de arena en el mundo Tech y aumentar la presencia de la mujer en este sector.</p>
+            <br>
+            <p class="grey-text">hoy en día, nos encontramos en una sociedad muy volátil y queremos formar parte de este cambio. Sín olvidar que este puede ser un pequeño impulso para el resto de mujeres.
+            En este equipo todas somos <strong><u>LobasMasters</u></strong>.</p>
+
     </section>
 
-        <section class="dafo deb_for">
+    <section>
+    <div class="triangle"></div>
+    </section>
+
+            <section class="dafo deb_for">
             <article class="fortdebi">
                 <h2 class="h2">Fortalezas</h2>
                 <p class="grey-text">
@@ -67,7 +63,7 @@
         </section>
 
         <section>
-            <h2 class="h2">QUIÉNES SOMOS</h2>
+            <h2 class="h2" id="quiénes somos">QUIÉNES SOMOS</h2>
 
             <article class="seccion-personal">
                 <div class="imagenlaia">
@@ -137,39 +133,27 @@
                 </section>
             </article>
     </section>
+    </main>
     
 
     <footer class="footer">
         <p class="footer__copy">Desarrollalobas © 2023</p>
 
         <ul class="footer__list"> 
-            <li class="footer__list-item"><a class="footer__list-link" href="#">EQUIPO</a></li>
-            <li class="footer__list-item"><a class="footer__list-link" href="#">QUIÉNES SOMOS</a></li>
-            <li class="footer__list-item"><a class="footer__list-link" href="#">CONTACTO</a></li>
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#equipo">EQUIPO</a>
+            </li>
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#quiénes somos">QUIÉNES SOMOS</a>
+            </li>
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#contacto">CONTACTO</a>
+            </li>
         </ul>
     
         <div class="container-logo">
             <img src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png" class="logo-adalab" alt="Logo de Adalab.">
         </div>
     </footer>
-    
-<!--
-
-    <footer class="footer-tablet">
-        <section class="footer-tablet-item">
-            <p class="footer__copy">Desarrollalobas © 2023</p>
-            <div class="container-logo">
-                <img src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png" class="logo-adalab" alt="Logo de Adalab.">
-            </div>
-           
-        </section>
-            
-        <ul class="footer__list-tablet"> 
-            <li class="footer__list-item"><a class="footer__list-link" href="#">EQUIPO</a></li>
-            <li class="footer__list-item"><a class="footer__list-link" href="#">QUIÉNES SOMOS</a></li>
-            <li class="footer__list-item"><a class="footer__list-link" href="#">CONTACTO</a></li>
-        </ul>  
-    </footer>
--->
     </body>
 </html>
