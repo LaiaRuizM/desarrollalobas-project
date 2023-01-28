@@ -61,11 +61,11 @@
   }
 
   .footer__list {
-    display: block;
+    display: inline;
     justify-content: flex-end;
     border: 5px solid grey;
-    margin-left: 80%;
-    margin-top: -30px;
+    /*margin-left: 80%;
+    margin-top: -30px;*/
   }
 
   .container-logo {
