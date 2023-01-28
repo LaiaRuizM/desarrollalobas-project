@@ -1,0 +1,62 @@
+.form__contact {
+    margin: 15px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.form__text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #54585a;
+}
+
+.form__small {
+    text-align: center;
+    display: block;
+    margin: 30px 0;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.form__label {
+    display: block;
+    margin: 0 0 10px;
+    width: 20ch;
+    line-height: 1.5;
+    color: #54585a;
+
+}
+
+.ast {
+    color: #14d9c4;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: 1.5px solid #b8b8b9;
+    margin: 7px 0 13px;
+    padding: 7px 250px 15px 15px;
+
+}
+
+.button {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #099d8d;
+    text-align: center;
+    margin-bottom: 60px;
+    height: 50px;
+    padding: 11px 80px 12px 74px;
+    border-radius: 4px;
+}
