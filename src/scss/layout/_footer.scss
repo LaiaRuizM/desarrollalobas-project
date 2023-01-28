@@ -32,58 +32,61 @@
   max-width: 100%;
 }
 
-@media (min-width: 768px) {
-  .footer {
-    border: 5px solid cyan;
-  }
+@media all and (min-width: 480px) {
+
 
   .footer__copy {
     display: flex;
     justify-content: flex-start;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-left: 20px;
     width: 30vw;
-    border: 5px solid green;
   }
 
   .footer__list-item {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-end;
     line-height: 2;
-    border: 5px solid yellow;
+    
   }
 
   .footer__list-link {
-    border: 5px solid coral;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    
     
   }
 
   .footer__list {
-    display: block;
+    display:list-item;
+    flex-direction: column;
+    align-content: flex-end;
     justify-content: flex-end;
-    border: 5px solid grey;
-    margin-left: 80%;
+    margin-left: 70%;
     margin-top: -30px;
+    
+    
   }
 
   .container-logo {
     display: flex;
-    margin: 0; // que se pegue a la izq. pq no tiene maárgenes en ningún lado.
+    position: relative;
+    bottom: 60px;
+    margin: 0; 
     width: 20%;
     padding-left: 20px;
-    // margin-bottom: 40px;
-    margin-bottom: 50px;
-    // position: sticky;
-    border: 5px solid red;
-    margin-bottom: -80px;
+    margin-bottom: -50px;
+    
+    
   }
 
   .logo-adalab {
     max-width: 100%;
-    border: 5px solid pink;
     z-index: 1;
+    
   }
 
   }
