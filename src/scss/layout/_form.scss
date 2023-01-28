@@ -73,12 +73,9 @@ textarea {
     .form__contact {
         width: 80%;
         margin: auto;
-        border: 1px solid red;
     }
 
     input, textarea {
-        /*display: inline-block;
-        left: 50%;*/
         width: 100%;
     }
 
@@ -91,8 +88,29 @@ textarea {
         width: 50%;
         margin-left: 50%;
     }
-
+    
 }
+
+@media all and (min-width: 1200px) {
+    .form__contact{
+        width: 60%;
+        margin: auto;
+    }
+    .desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .desktop-item1 {
+        width: 55%;
+    }
+    .desktop-item2 {
+        width: 40%;
+    }
+  
+}
+
+
 
 
 
