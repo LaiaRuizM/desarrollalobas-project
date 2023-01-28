@@ -1,5 +1,5 @@
 .form__contact {
-    margin: 15px;
+    margin: 50px 15px 0 15px;
 }
 
 .h2 {
@@ -16,7 +16,7 @@
 .form__small {
     text-align: center;
     display: block;
-    margin: 30px 0;
+    margin: 30px 0 60px;
 }
 
 .form__field {
@@ -39,13 +39,20 @@
     color: #14d9c4;
 }
 
-input, textarea {
+input {
     display: block;
-    width: 100%;
+    width: 90vw;
+    height: 50px;
     border: 1.5px solid #b8b8b9;
     margin: 7px 0 13px;
-    padding: 7px 250px 15px 15px;
+}
 
+textarea {
+    display: block;
+    width: 90vw;
+    height: 150px;
+    border: 1.5px solid #b8b8b9;
+    margin: 7px 0 13px;
 }
 
 .button {
@@ -60,3 +67,36 @@ input, textarea {
     padding: 11px 80px 12px 74px;
     border-radius: 4px;
 }
+
+
+@media all and (min-width: 768px) {
+    .form__contact {
+        width: 80%;
+        margin: auto;
+        border: 1px solid red;
+    }
+
+    input, textarea {
+        /*display: inline-block;
+        left: 50%;*/
+        width: 100%;
+    }
+
+    .form__label {
+        width: 100%;   
+      
+    }
+
+    .button {
+        width: 50%;
+        margin-left: 50%;
+    }
+
+}
+
+
+
+
+
+
+
